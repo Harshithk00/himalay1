@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('Hellfffo World!')
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT||port, () => {
     
 })
 app.get('/himalay', (req, res) => {
